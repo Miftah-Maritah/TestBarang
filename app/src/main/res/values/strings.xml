@@ -2,7 +2,7 @@
     <string name="app_name">TestBarang</string>
     <string name="berTambah">Tambah Data</string>
     <string name="Lihat">Lihat Data</string>
-    <string name="bok">Submit Datas</string>
+    <string name="bok">Submit Data</string>
     <string name="eno">Kode Barang</string>
     <string name="enama">Nama Barang</string>
     <string name="txtJudul1">ACTIVITAS</string>

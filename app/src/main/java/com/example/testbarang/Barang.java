@@ -1,7 +1,6 @@
 package com.example.testbarang;
 
 import java.io.Serializable;
-
 public class Barang implements Serializable {
     private String kode;
     private String nama;
@@ -13,25 +12,20 @@ public class Barang implements Serializable {
     public String getKode(){
         return kode;
     }
-
     public void setKode(String kd){
         this.kode = kd;
     }
-
     public String getNama(){
         return nama;
     }
-
-    public void setName(String nama){
+    public void setNama(String nama){
         this.nama = nama;
     }
-
     @Override
-    public String toString(){
-        return " "+kode+"\n" +
+    public String toString() {
+        return  " "+kode+"\n" +
                 " "+nama;
     }
-
     public Barang(String kd, String nm){
         kode = kd;
         nama = nm;
